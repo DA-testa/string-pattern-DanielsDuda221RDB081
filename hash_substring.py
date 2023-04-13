@@ -6,10 +6,7 @@ def read_input():
         pattern = input()
         text = input()
     elif "F" in text:
-        text2 = input()
-        if "a" in text2:
-            return()
-        with open ("tests/"+text2, encoding="utf-8") as fails:
+        with open ("tests/06", encoding="utf-8") as fails:
             pattern = fails.readline()
             text = fails.readline()
             
